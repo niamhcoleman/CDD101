@@ -16,6 +16,10 @@ Semaphores; edit main.cpp so that the functions taskOne and taskTwo run in separ
 
 # Lab 3
 
+Rendezvous; edit main.cpp so that a rendezvous using a common semaphore is in place.
+
+# Lab 4
+
 
 
 
