@@ -12,6 +12,10 @@ Introduction to tools (emacs, g++, doxygen, gdb, make).
 
 # Lab 2
 
+Semaphores; edit main.cpp so that the functions taskOne and taskTwo run in separate threads and a semaphore is used to ensure taskOne runs and exits before taskTwo.
+
+# Lab 3
+
 
 
 
