@@ -1,1 +1,3 @@
-To generate documentation: run Doxygen inside directory
+To execute: run 1) make 2) ./[executable]
+
+To generate documentation: run 'doxygen' inside directory
