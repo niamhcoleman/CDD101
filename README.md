@@ -1,4 +1,4 @@
-# CDD101
+# CDDLabs
 Labs for Concurrent Device Development
 
 Niamh Coleman (C00205225)
