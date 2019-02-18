@@ -1,24 +1,30 @@
 # CDD101
 Labs for Concurrent Device Development
 
-Niamh Coleman (C00205225)
-License: GNU
+### Niamh Coleman (C00205225)
+### License: GNU
 
 This repo contains the labs for the concurrent device development module.
 
-# Lab 1
+## Lab 1
 
-Introduction to tools (emacs, g++, doxygen, gdb, make).
+#### Introduction to tools
 
-# Lab 2
+(emacs, g++, doxygen, gdb, make).
 
-Semaphores; edit main.cpp so that the functions taskOne and taskTwo run in separate threads and a semaphore is used to ensure taskOne runs and exits before taskTwo.
+## Lab 2
 
-# Lab 3
+#### Semaphores
 
-Rendezvous; edit main.cpp so that a rendezvous using a common semaphore is in place.
+Edit main.cpp so that the functions taskOne and taskTwo run in separate threads and a semaphore is used to ensure taskOne runs and exits before taskTwo.
 
-# Lab 4
+## Lab 3
+
+#### Rendezvous
+
+Edit main.cpp so that a rendezvous using a common semaphore is in place.
+
+## Lab 4
 
 
 
