@@ -22,7 +22,7 @@ Edit main.cpp so that the functions taskOne and taskTwo run in separate threads 
 
 #### Rendezvous
 
-Edit main.cpp so that a rendezvous using a common semaphore is in place.
+Edit main.cpp so that a rendezvous is created using two semaphores with two threads.
 
 ## Lab 4
 
