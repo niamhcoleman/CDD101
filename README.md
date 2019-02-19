@@ -33,6 +33,12 @@ Edit main.cpp so that a rendezvous is created using two semaphores with two thre
 
 ## Lab 4
 
+#### Mutual Exclusion
+
+Demonstration of mutual exclusion using sempahore class.
+
+## Lab 5
+
 
 
 
