@@ -6,6 +6,13 @@ License: GNU
 
 This repo contains the labs for the concurrent device development module.
 
+To execute run:
+1) make
+2) ./main
+
+To create documentation run:
+1) doxygen
+
 ## Lab 1
 
 #### Introduction to tools
