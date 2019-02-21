@@ -34,7 +34,9 @@ void updateTask(std::shared_ptr<Semaphore> firstSem, int numUpdates){
  
   for(int i=0;i<numUpdates;i++){
     //UPDATE SHARED VARIABLE HERE!
-    sharedVariable++;
+    firstSem->Wait();
+    sharedVariable++; 
+    firstSem->Signal();
   }
 
 }
