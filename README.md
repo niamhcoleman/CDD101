@@ -39,6 +39,12 @@ Demonstration of mutual exclusion using sempahore class.
 
 ## Lab 5
 
+#### Reusable Barrier
 
+Use of a barrier to successfully output a message in two parts.
+
+## Lab 6
+
+#### Producer- Consumer
 
 
