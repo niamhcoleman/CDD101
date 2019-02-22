@@ -6,11 +6,13 @@
 
 static const int num_threads = 100;
 
+/** @brief An example of using a resusable barrier.
+ *
+ * displays a message that is split in to 2 sections to show how a rendezvous works
+ * @return a message of a letter (A/B) appended to a number
+ * @param i The number to be appended to A/B
+ */
 
-/*! \fn barrierTask
-    \brief An example of using a reusable barrier
-*/
-/*! displays a message that is split in to 2 sections to show how a rendezvous works*/
 void barrierTask(std::shared_ptr<Barrier> theBarrier, int numLoops){
 
   for(int i=0;i<numLoops;++i){
