@@ -2,7 +2,7 @@
  *Project: CDD Lab 3
  *Author: Niamh C
  *License: GNU
- *Description: Creation of a rendevous pattern using semaphores.Two threads with a shared semaphore are both assigned a task. Each thread must wait until both have arrived at the rendezvous point before continuing execution.
+ *Description: Creation of a rendevous pattern using semaphores.
  */
 
 
@@ -11,20 +11,31 @@
 #include <thread>
 #include <chrono>
 
-/*! \class Signal
-    \brief An Implementation of a Rendezvous using Semaphores
 
-   Uses C++11 features such as mutex and condition variables to implement an example of a rendezvous for threads
+/** @brief An implementation of a rendezvous
+ *
+ * A message is displayed in two parts. Both threads must arrive at the
+ * rendezvous point before they can continue. TaskOne is carried out by
+ * threadOne, taskTwo is carried out by threadTwo.  
+ * 
+ * @return either part one/two of the message 
+ * @param firstSem Semaphore object representing firstThread arrival
+ * @param secondSem Semaphore object representing secondThread arrival
+ * @param delay represents the time the thread should sleep for
+ */
 
-*/
-/*! displays a message that is split in to 2 sections to show how a rendezvous works*/
+/*! \mainpage Lab 3
+ *
+ * \section Rendezvous
+ *
+ * This lab demonstrates a rendezvous.
+ * A message is displayed in two parts.
+ * Both threads must arrive at one point (the rendezvous) before they can continue.
+ *  
+ */
 
-/*! \fn void TaskOne(std::shared_ptr<Semaphore> firstSem,std::shared_ptr<Semaphore> secondSem, int delay)
-    \brief taskOne is carried out by thread one.
-    \param firstSem Semaphore object to indicate first arrival
-    \param secondSem Semaphore object to indicate second arrival
-    \param delay int to be used for sleep_for() function
-*/
+
+
 
 void taskOne(std::shared_ptr<Semaphore> firstSem,std::shared_ptr<Semaphore>  secondSem, int delay){
   
