@@ -15,20 +15,26 @@ static const int num_threads = 100;
 int sharedVariable=0;
 
 
-/*! \fn updateTask
-    \brief An Implementation of Mutual Exclusion using Semaphores
+/** @brief An implementation of mutual exclusion using semaphores
+ *
+ * Uses semaphores to implement mutual exclusion on a shared variable
+ * i.e no shared/simultaneous access to the shared variable is allowed. 
+ * 
+ * @return updates the value of shared variable 
+ * @param firstSem Semaphore object
+ * @param numUpdates the number of times the sharedVariable is to the updated.
+ */
 
-   Uses C++11 features such as mutex and condition variables to implement an example of a rendezvous for threads
 
-*/
-/*! displays a message that is split in to 2 sections to show how a rendezvous works*/
+/*! \mainpage Lab 4
+ *
+ * \section Mutual Exclusion
+ *
+ * This lab demonstrates mutual exclusion by implementing it on a shared variable i.e shared/simultaneous access is not allowed to the variable.
+ */
 
-/*! \fn void updateTask(std::shared_ptr<Semaphore> firstSem, int numUpdates)
-    \brief updateTask to demonstrate semaphore illustrating mutual exclusion on a shared variable.
-    \param firstSem Semaphore object
-    \param numUpdates
 
-*/
+
 void updateTask(std::shared_ptr<Semaphore> firstSem, int numUpdates){
 
  
