@@ -8,9 +8,22 @@ static const int num_threads = 100;
 
 /** @brief An example of using a resusable barrier.
  *
- * displays a message that is split in to 2 sections to show how a rendezvous works
+ * displays a message that is split in to 2 sections 
+ * 
  * @return a message of a letter (A/B) appended to a number
  * @param i The number to be appended to A/B
+ */
+
+/*! \mainpage Lab 5
+ *
+ * \section Reuseable Barrier
+ *
+ * This lab demonstrates a barrier.
+ * A barrier provides the same functionality as a rendezvous 
+ * but it works with n number of threads ie. allowing threads to progress once
+ * n threads have arrived at the barrier location. IN this case, it means that t
+ * he program outputs Ai one hundred times before moving onto Bi, and looping again.
+ *  
  */
 
 void barrierTask(std::shared_ptr<Barrier> theBarrier, int numLoops){
