@@ -1,3 +1,8 @@
-To execute: run 1) make 2) ./[executable]
+To execute run the following:
+1. make
+2. ./main
 
-To generate documentation: run 'doxygen' inside directory
+To create documentation run the following:
+1. doxygen
+
+******************************************************************************************
