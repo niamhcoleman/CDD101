@@ -1,10 +1,16 @@
-The README file is a text file that explains what a project is.
-It should contain information on
+Labs for Concurrent Device Development
 
-1. Project Licence
-2. Authors of Project
-3. How to install project
-4. List of any required Libraries, platform issues, etc.
-5. TO DO section listing items that need to be completed (errors, missing features etc.)
-6. List of files and what they contain
-7. Any other relevent information
+Niamh Coleman (C00205225) License: GNU
+
+This repo contains the labs for the concurrent device development module.
+
+****************************************************************************************
+
+To execute run the following:
+1. make
+2. ./main
+
+To create documentation run the following:
+1. doxygen
+
+******************************************************************************************
