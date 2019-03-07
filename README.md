@@ -47,4 +47,5 @@ Use of a barrier to successfully output a message in two parts.
 
 #### Producer- Consumer
 
-
+A producer method that creates an event and adds it to the buffer.
+A consumer method that consumes the event created by the producer.
