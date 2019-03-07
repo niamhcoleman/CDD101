@@ -1,0 +1,16 @@
+#include "Event.h"
+#include <iostream>
+#include <stdlib.h>
+
+//iostream doesnt need .h bc its a cpp library
+//event and stdlib does as they are c libs
+
+//producing..
+Event::Event(){
+  eric = 'a'+rand()%26;
+  std::cout<<"producing.."<<std::endl;
+}
+
+bool Event::consume(){
+  std::cout<<"consuming.."<<std::end;
+}
